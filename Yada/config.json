@@ -1,0 +1,31 @@
+{
+  "Pools": [
+    {
+      "pool": "yadacoin.io:3333",
+      "user": "1NqQt74KCCCwmSQF7DxB5PHJBVsPBo5WtY",
+      "pass": "onf",
+      "rig-id": "GxMiner",
+      "nicehash": false,
+      "tls": false
+    }
+  ],
+  "Workers": {
+    "worker-num": 2,
+    "init-num": 4,
+    "huge-page": false,
+    "hard-aes": true,
+    "full-mem": true,
+    "jit": true,
+    "argon2-sse3": true,
+    "argon2-avx2": true,
+    "affinity-mask": "3"
+  },
+  "Log": {
+    "Level": "info",
+    "File": ""
+  },
+  "Http": {
+    "Port": 2333,
+    "External": false
+  }
+}

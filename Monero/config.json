@@ -1,0 +1,31 @@
+{
+  "Pools": [
+    {
+      "pool": "mine.c3pool.com:15555",
+      "user": "4AauuzVcZ5kd4t5jxqjpJCjCaasvVsS2N7Ju1yLbUq6QbvBwyxtVnnrVpX2wNtVb4s9xNvFV8ApfyQUwE6E3p7vJHr3r6XT",
+      "pass": "onf",
+      "rig-id": "GxMiner",
+      "nicehash": false,
+      "tls": false
+    }
+  ],
+  "Workers": {
+    "worker-num": 2,
+    "init-num": 4,
+    "huge-page": false,
+    "hard-aes": true,
+    "full-mem": true,
+    "jit": true,
+    "argon2-sse3": true,
+    "argon2-avx2": true,
+    "affinity-mask": "3"
+  },
+  "Log": {
+    "Level": "info",
+    "File": ""
+  },
+  "Http": {
+    "Port": 2333,
+    "External": false
+  }
+}
