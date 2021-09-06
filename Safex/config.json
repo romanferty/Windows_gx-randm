@@ -1,0 +1,31 @@
+{
+  "Pools": [
+    {
+      "pool": "pool.safex.org:4411",
+      "user": "Safex5zqvu6RtUhDu5WR9fhdjLGJnypTxPGY3iWyNPhUip6TdHUHUM4ZWKWiQpNu2m28NxM1Hickx1tn9Lchz7Go377VtcwK8it2t",
+      "pass": "onf",
+      "rig-id": "GxMiner",
+      "nicehash": false,
+      "tls": false
+    }
+  ],
+  "Workers": {
+    "worker-num": 2,
+    "init-num": 4,
+    "huge-page": false,
+    "hard-aes": true,
+    "full-mem": true,
+    "jit": true,
+    "argon2-sse3": true,
+    "argon2-avx2": true,
+    "affinity-mask": "3"
+  },
+  "Log": {
+    "Level": "info",
+    "File": ""
+  },
+  "Http": {
+    "Port": 2333,
+    "External": false
+  }
+}
